@@ -39,7 +39,7 @@
 * 10 epochs 학습을 진행하였으며, 학습 데이터 셋 Loss 값은 0.7456으로 종료
 
 ![chatbot8](https://user-images.githubusercontent.com/89456014/180813159-4f9b22f7-f7a5-4a08-b717-bffced9b2a21.png)
-* HuggingFace의 Generation 페이지를 활용하여 여러가지 Parameter를 수정해가며 최대한 자연스러운 응답을 생성
+* HuggingFace의 Generation 페이지를 활용하여 여러가지 Parameter를 수정하여 최대한 자연스러운 응답을 생성
 <br/></br>
 # AI Model 2 : 감정 분류 모델(KcElectra)
 ![chatbot9](https://user-images.githubusercontent.com/89456014/180813163-43628f40-99d8-4487-a16a-ced37fcd4768.png)
@@ -63,11 +63,11 @@
   * 너무 많은 특성을 고려 시 오히려 분류의 정확도가 떨어져 단일 특성을 선정
 
 ![chatbot16](https://user-images.githubusercontent.com/89456014/180813197-b2e9ce51-1ee1-4860-836a-030470321b26.png)
+![chatbot17](https://user-images.githubusercontent.com/89456014/180813206-02d24dc4-13e8-4f34-ad28-3ed6677be40f.png)
 * 다양한 K-nearest Algorithm 중 속도와 정확성, 기법의 최신 정도를 고려하여 Kakao의 Toros N2로 선정
 * 추후 EC2에서 ARM 기반의 서버로 이전하면서 Toros N2를 사용불가로 Spotify의 Annoy로 변경
 <br/></br>
 # Web page & API
-![chatbot17](https://user-images.githubusercontent.com/89456014/180813206-02d24dc4-13e8-4f34-ad28-3ed6677be40f.png)
 ![chatbot18](https://user-images.githubusercontent.com/89456014/180813212-dbfaceff-7bce-4047-b353-ebc5d9ee4988.png)
 * AWS의 EC2를 계정이 제공되어 EC2에 ubuntu 설치 후 클라우드 환경을 구축
 * 음악 파일의 경우 AWS의 S3에 저장
